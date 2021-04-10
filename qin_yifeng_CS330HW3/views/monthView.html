@@ -1,0 +1,22 @@
+<div class="content">
+    <button ng-click="order = 'high'">Order by High Temp </button>
+    <button ng-click="order = 'low'">Order by Low Temp </button>
+    <input type="text" ng-model="search" />
+    <ul>
+      <li ng-repeat="weather in weathers | orderBy: order | filter: search">
+        <h2>{{weather.day}}</h2>
+        <h3>High: {{weather.high}}&deg | F Low: {{weather.low}}&deg F</h3>
+        <div class="remove" ng-click="removeWeather(weather)">x</div>
+      </li>
+    </ul>
+    <form ng-submit="addWeather()">
+      <input type="text" placeholder="Month/Day" ng-model="newWeather.day" />
+      <input type="text" placeholder="Week Day" ng-model="newWeather.weekDay" />
+      <input type="text" placeholder="low" ng-model="newWeather.low" />
+      <input type="text" placeholder="high" ng-model="newWeather.high" />
+      <input type="text" placeholder="conditions" ng-model="newWeather.conditions" />
+      <input type="text" placeholder="precip" ng-model="newWeather.precip" />
+      <input type="text" placeholder="humidity" ng-model="newWeather.humidity" />
+      <input type="submit" value="Submit Weather"/>
+    </form>
+</div>

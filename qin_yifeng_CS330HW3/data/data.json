@@ -1,0 +1,33 @@
+[{
+  "day": "12/10",
+	"weekDay": "Wed",
+	"low": 32,
+	"high": 50,
+	"conditions": "Rainy",
+	"precip" : 90,
+	"humidity" : 85
+}, {
+  "day": "12/11",
+	"weekDay": "Thurs",
+	"low": 41,
+	"high": 50,
+	"conditions": "Cloudy",
+	"precip" : 20,
+	"humidity" : 55
+}, {
+  "day": "12/12",
+	"weekDay": "Fri",
+	"low": 23,
+	"high": 36,
+	"conditions": "Rainy",
+	"precip" : 90,
+	"humidity" : 80
+}, {
+  "day": "12/13",
+	"weekDay": "Sat",
+	"low": 34,
+	"high": 66,
+	"conditions": "Sunny",
+	"precip" : 5,
+	"humidity" : 40
+}]

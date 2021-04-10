@@ -1,0 +1,11 @@
+Yifeng Qin
+CS330HW1
+9/24/19
+
+General:
+CS330HW2 file contains all three questions that were asked in the hw description. The code is contained in CS 330 HW2 Code For the UML diagram I exported it as a picture(.svg) as well as the tiny UML file type(.tsm).
+
+Compile:
+cd into CS330HW2Code
+then use: javac *.java
+and then: java ChristmasTree 

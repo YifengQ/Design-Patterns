@@ -1,0 +1,15 @@
+Yifeng Qin
+CS330HW1
+9/10/19
+
+General:
+CS330HW1 file contains all three questions that were asked in the hw description. The code is contained in CS330HW1_Q1. For the UML diagram I exported it as a picture(.svg) as well as the tiny UML file type(.tsm). Lastly, Q3 is in CS330HW_1_Q3, which is a word document. 
+
+Assumptions:
+I assumed that it was suppose to be structured like the GuitarHero in class assignment. So I didn't ask the user for any input. When the order or weapon needs to change I just call the corresponding function and a new order or weapon in. For pickup_newweapon, I followed the slides and made a chooseWeapon function for pickup_newweapon to call. 
+
+
+Compile:
+cd into CS330HW1_Q1
+then use: javac *.java
+and then: java GameDriver 
